@@ -3,83 +3,269 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>Yajaira Flores Resume</title>
     <style>
     *{
         font-family: Arial, Helvetica, sans-serif;
     }
+    *, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+html
+{
+	font-size:100%;
+}
+
+body
+{
+	-webkit-font-smoothing:antialiased;
+	color:#333332;
+	font-family:Lora, serif;
+	font-size:18px;
+	font-weight:400;
+	line-height:1.4;
+	text-rendering:optimizeLegibility;
+}
+
+.skill-set li:hover
+{
+	background:#3498db;
+}
+
+h1
+{
+	color:rgba(0,0,0,.75);
+}
+
+.wrapper
+{
+	height:100%;
+}
+
+.left
+{
+	background-color:rgba(0,0,0,.025);
+	border-right:1px solid rgba(0,0,0,.05);
+	float:right;
+	height:100%;
+	margin-left:-1px;
+	min-width:256px;
+	position:fixed;
+	width:33.33%;
+  
+}
+
+.right
+{
+	float:right;
+	height:100%;
+	position:relative;
+	width:66.66%;
+}
+
+
+.name-hero
+{
+	background:rgba(0,0,0,.001);
+	bottom:0;
+	height:290px;
+	left:0;
+	margin:auto;
+	position:absolute;
+	right:0;
+	top:0;
+	width:85%;
+}
+
+.me-img
+{
+	background:url(https://media-exp1.licdn.com/dms/image/C4E03AQGnLq_IB_mf8Q/profile-displayphoto-shrink_400_400/0/1631022739752?e=1648684800&v=beta&t=eICUjHeH_g9GQEItmEMK1j2gCADwqfjrlccSD_5za58) no-repeat center center ;
+	background-size:100%;
+  background-position:0px;
+	border-radius:100%;
+	height:150px;
+	margin:0 auto;
+	position:relative;
+	width:150px;
+}
+
+.name-hero h1
+{
+	font-family:Open Sans, sans-serif;
+	font-size:1.5em;
+	text-align:center;
+}
+
+.name-hero h1 em
+{
+	color:rgba(0,0,0,.3);
+	font-style:normal;
+	font-weight:700;
+}
+
+.name-hero p
+{
+	color:rgba(0,0,0,.75);
+	font-size:.75em;
+	line-height:1.5;
+	margin:0 8px 0 0;
+	text-align:center;
+}
+
+.name-hero .name-text
+{
+	margin:0 auto;
+	width:85%;
+}
+
+.inner
+{
+	margin:0 auto;
+	max-width:975px;
+	padding:3em;
+}
+
+.inner h1
+{
+	font-size:1.75em;
+}
+
+.inner p
+{
+	color:rgba(0,0,0,.5);
+}
+
+.inner p em
+{
+	color:rgba(0,0,0,1);
+	font-style:normal;
+}
+
+.inner section
+{
+	margin:100px auto;
+}
+
+ul
+{
+	list-style-type:none;
+	margin-top:-10px;
+	max-width:570px;
+	padding:0;
+}
+
+.skill-set li
+{
+	background:rgba(0,0,0,.75);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
+
+@media screen and (max-width: 48em) {
+	.right,.left
+	{
+		float:none;
+    position:relative !important;
+		width:100%;
+    min-height:500px;
+	}
+  .handmade {
+  text-align:center !important;
+  margin-top:0px !important;
+}
+
+@media screen and (max-width: 75em) {
+    body
+{ font-size:16px;}
+}
+
+@media screen and (max-width: 60em) {
+    body
+{ font-size:14px;}
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
     </style>
 </head>
-<body>
-    <header>
-        <h1>Yajaira Flores</h1>
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Objective</h2>
-        </section>
-        <Section>
-            <h2>Work History</h2>
-            <ul>
-            Digital Marketing Coordinator — Arkansas Democrat-Gazette | Mar 2024 – Current
-            <li>Trafficked and monitored multi-channel digital ad campaigns, ensuring accurate creative uploads, URL tracking, and
-placements.</li>
-            <li>Used performance data to adjust budgets, targeting, and creative strategy, improving campaign efficiency.</li>
-            <li>Generated detailed monthly reports, analyzing campaign pacing, CTR, impressions, and underdelivery risks.</li>
-            <li>Collaborated with sales and creative teams to secure assets, confirm ad specifications, and streamline workflows.</li>
-            </ul>
+<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Open+Sans:300,400,500,700|Waiting+for+the+Sunrise|Shadows+Into+Light' rel='stylesheet' type='text/css'>
 
-            <ul>
-            Graphic Designer — Group Five West | Oct 2023 – Mar 2024
-            <li>Designed static, motion, and video creative for client ad campaigns across social platforms.</li>
-            <li>Planned and created monthly social media content calendars, ensuring alignment with campaign goals.</li>
-            <li>Researched client industries to inform messaging and creative execution.</li>
-            </ul>
+<div class="wrapper clearfix">
+  <div class="left">
 
-            <ul>
-            Graphic Designer — DNT Media | May 2023 – Oct 2023
-            <li>Created social media content and digital assets tailored to client industries.</li>
-            <li>Assisted in website design, email marketing campaigns, and multi-channel advertising collateral.</li>
-            <li>Collaborated with account managers to deliver high-quality creative that met client strategy and ad spec requirements.</li>
-            </ul>
+    <div class="name-hero">
 
-            <ul>
-           Graphic Designer — Arkansas Democrat-Gazette | Dec 2021 – May 2023
-            <li>Designed and updated advertising creative for print campaigns, ensuring brand accuracy and compliance with ad
-specifications.</li>
-            <li>Partnered with the Marketing department to produce promotional materials, event branding, and advertising
-collateral.</li>
-            <li>Adapted creative concepts for a wide range of campaigns, demonstrating accuracy under tight deadlines.</li>
-            </ul>
+      <div class="me-img"></div>
 
-            <ul>
-            Digital Media Specialist — JK Products & Services | Mar 2021 – Nov 2021
-            <li>Produced large-scale marketing collateral, website designs, and branded digital content.</li>
-            <li>Directed, shot, and edited video content for digital marketing campaigns.</li>
-            <li>Developed brand guidelines and digital assets to support product launches and advertising campaigns.</li>
-            </ul>
+      <div class="name-text">
 
-        </Section>
-        <Section>
-            <h2> Education</h2>
-            <p><strong>Arkansas State University</strong>
-                <br>
-            <em>B.S. Creative Media Production with an Emphasis in Graphic Communications</em></p>
-        </Section>
-        <Section>
+        <h1>Yajaira <em>Flores</em></h1>
+        <P>LinkedIn</P>
+        <p>Portfolio</p>
+        <p>floresyajaira17@gmail.com</p>
+        <p>(501) 289-8537</p>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="right">
+
+    <div class="inner">
+      <section>
+        <h1>Employment</h1>
+        <p>Winter 2015 - Present <em>Grand Interactive, llc. | Mobile App Developer</em></p>
+        <p>Raised $78,000 in early stage funding, created initial design
+          concepts, and oversaw initial development. Currently oversee and maintain all front end code and server functionality.</p>
+        <p>Spring 2012 - Winter 2015 | <em>PadMatcher Inc. | CTO, Co-Founder</em></p>
+        <p>Raised $78,000 in early stage funding, created initial design
+          concepts, and oversaw initial development. Oversaw and maintained all front end code and server functionality.</p>
+        <p>Fall 2011 - Fall 2013 | <em>Penrose Realty llc. | Desinger & Assistant</em></p>
+        <p>Responsible for all technical areas. Maintain servers, computers, and provide in office technical support. Rebranded company from ground up including a fully responsive website. </p>
+      </section>
+  <Section>
             <h2>Skills</h2>
+            <ul class="skill-set">
+               <li>Content Creation</li>
+               <li>Website & SEO</li>
+               <li>Time Management</li>
+               <li>Adaptability</li>
+               <li>Campaign Management</li>
+               <li>Performance Tracking</li>
+               <li>Monitoring & troubleshooting</li>
+               <li>Strong collaboration</li>
+               <li>Detail Orientated</li>
+               <li>Basic HTML</li>
+            </ul>
         </Section>
-    </main>
-    <footer>
-        <p>5012898537 floresyajaira17@gmail.com LinkedIn Portfolio</p>
-    </footer>
-</body>
+        <Section>
+            <h2>Platforms</h2>
+            <ul class="skill-set">
+               <li>Adobe Creative Suite</li>
+               <li>Trello</li>
+               <li>NinjaCat</li>
+               <li>Nativo</li>
+               <li>Meta Business Suite</li>
+               <li>Meta Ad Manager</li>
+               <li>Canva</li>
+               <li>Google Ads</li>
+            </ul>
+        </Section>
+    </div>
+
+  </div>
+
+</div>
 </html>
